@@ -1,7 +1,15 @@
 import React from 'react'
+import { Header } from './components/Header'
 
 function App(): JSX.Element {
-  return <h1> Hello Word</h1>
+  return (
+    <Header
+      data={{
+        title: 'Produto',
+        description: 'any_description',
+      }}
+    />
+  )
 }
 
 export default App
